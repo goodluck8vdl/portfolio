@@ -1,0 +1,271 @@
+/*** Home ***/
+
+.carousel-pos1 {
+	top: 25%;
+	color: white;
+	font-family: 'Source Code Pro', monospace;
+	font-size: 3em;
+	text-shadow: 0 1px 2px rgb(119, 119, 119);
+    background-color: rgba(0, 0, 0, 0.4);
+    bottom: 50%;
+}
+.carousel-pos1 p {
+	 text-shadow: 1px 1px 1px #000, 3px 3px 5px grey;
+	  }
+.carousel-pos2 {
+	right: -3.5%;
+	top: 12%;
+	font-size: 2em;
+	font-family: 'Source Code Pro', monospace;
+}
+.carousel-pos3 {
+	left: -35%;
+	top: 25%;
+	color: black;
+	font-family: 'Source Code Pro', monospace;
+	font-size: 2em;
+}
+#carousel-example-generic {
+padding-top: 3.8%;
+}
+
+.carousel {
+  margin-left: -2.2%;
+  margin-right: -2.2%;
+}
+
+/*** Contact page ***/
+* { box-sizing: border-box; }
+
+.header2 p,
+.address p,
+.phone p,
+.email p,
+.email ul {
+	color: white;
+}
+.header2 h3,
+.address h3,
+.phone h3,
+.email h3 {
+	color: white;
+	font-family: 'David Libre', serif;
+}
+.header2,
+.address, 
+.phone, 
+.email {
+	padding-left: 3%;
+}
+.header2 h1 {
+	color: #D8E8ED;
+	text-align: center;
+	margin-bottom: 2%;
+	text-transform: uppercase;
+	font-family: Georgia;
+	margin-top: 5%;
+}
+.header2 p {
+	text-align: center;
+	margin-bottom: 2%;
+	font-size: 3em;
+	font-family: 'Poppins', sans-serif;
+}
+#contact_page {
+	background-image: url('../img/wall2.jpg');
+	background-attachment: fixed;
+	background-size: cover;
+	color: white;
+	padding-top: 10px;
+	height: 650px;
+}
+
+.email p:hover {
+	color: #ff0;
+}
+.phone p:hover {
+	color: #ff0;
+}
+.address p:hover {
+	color: #ff0;
+}
+.col-lg-8 col-md-8 {
+	float: right;
+}
+
+/*** FAQ ***/
+
+.panel-body {
+
+font-size: 1em;
+background-color: white;
+font-family: 'Open Sans', sans-serif;
+}
+
+.panel-default>.panel-heading {
+	background-color: #999999;
+}
+.header1 h1{
+	text-align: center;
+	margin-bottom: 2%;
+	margin-top: 5.5%;
+}
+.main h2{
+	margin-bottom: 2%;
+}
+
+
+/*** About ***/
+
+* { box-sizing: border-box; }
+#about {
+	padding-bottom: 10%;
+	background-color: ;
+}
+
+.header4 h1 {
+    text-align: center;
+    margin-bottom: 2%;
+    margin-top: 5.5%;
+}
+.image {
+  display: inline-block;
+  float: left;
+  width: 100%;
+}
+
+.column {
+  display: inline-block;
+  float: left;
+  width: 30%;
+  padding: 0 2%;
+}
+.main-text {
+  clear: both;
+  padding-top: 6%;
+
+}
+.main-text h3 {
+	text-align: center;
+}
+/*Typography*/
+.header4 h1,
+.intro h2,
+.skills h3, 
+.main-text h3 {
+  font-family: Futura, Helvetica, Arial, sans-serif;
+  text-transform: uppercase;
+  text-align: center;
+}
+.intro p {
+    font-family: Futura, Helvetica, Arial, sans-serif;
+    font-size: 1.8em;
+    font-weight: 100;
+    -webkit-margin-before: 0;
+}
+.skills {
+  font-family: Futura, Helvetica, Arial, sans-serif;
+  color: black;
+  padding: 1% 0 4% 1%;
+  font-size: 1.3em;
+}
+.check h4 {
+  text-transform: uppercase;
+  text-align: center;
+}
+.check {
+	background-color: #fff;
+	opacity: 0.9;
+	border: 2px solid black;
+}
+/*** Work ***/
+.work-img {
+  display: block; /* needed to center the element with margin */
+  margin: auto; /* center the image inside the column if it's smaller */
+  max-width: 200px; /* needs to be set to the width of your image files if they are relatively small */
+  position: relative; /* is needed for .info position: absolute to work */
+}
+.info {
+  position: absolute; /* let's us move the text around and not worry about the image */
+  top: 5%; /* position the text 15% away from the top */
+  left: 22%;
+  color: black;
+  font-family:Futura;
+  text-transform:uppercase;
+  font-weight:700;
+  letter-spacing:0.5em;
+  line-height:1;
+  display: none;
+}
+.proj-title {
+	font-weight:100;
+}
+.row-xs-6 {
+	display: inline-block;
+	padding: 3.4% 3.4% 3.4% 3.4%;
+}
+.header5 h1{
+	text-align: center;
+	font-size: 3.5em;
+}
+body {
+	background-color: #f2f2f2;
+  	position: relative;
+}
+.innaBabiichuk a{
+ 	color: black;
+ 	text-transform: uppercase;
+}
+.navbar {
+	text-transform: uppercase;
+}
+.navbar {
+	background: rgba(153, 153, 153, 0.8);
+}
+.navbar-inverse .navbar-nav>li>a {
+	color: black;
+	transition: color 600ms;
+}
+
+.header5 {
+	padding-top: 5%;
+}
+.header6 h1{
+	text-align: center;
+	padding-top: 5%;
+}
+/*** footer ***/
+.foot {
+	float: right;
+}
+.form-control {
+	width: 80%;
+}
+
+/*** learn more ***/
+.learn-more {
+  text-align: left;
+  float: left;
+  margin-left: 30px;
+}
+.modal-button {
+  
+  padding: 15px;
+  margin-left: 80px;
+}
+#modalembed {
+    height: 500px;
+    width: 100%;
+    padding: 10px;
+}
+/*** Map***/
+#map {
+	height: 200px;
+	width: 100%;
+	padding: 0;
+	margin-left: 3%;
+}
+hr {
+	border-color: black;
+	border-width: 1px;
+}
